@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+
+
+<% @links.each do |link| %>
+      <h4> <%= link_to link.text, link.url %> </h4>
+       
+<% end %>
+
+
+<br>
+
+<%= link_to 'Post New Link', new_link_path %>
