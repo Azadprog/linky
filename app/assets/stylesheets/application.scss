@@ -1,0 +1,41 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+background-color:#a9d2e8 ;   
+background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url("https://image.freepik.com/free-psd/abstract-background-design_1297-87.jpg");
+background-size:cover;
+color:red;
+    
+}
+
+
+.page-header h1 {
+ color:white;    
+    
+}
+
+.page-header small {
+
+color:red;    
+    
+    
+}
+
+.list-group-item{
+    
+    background-color:white;
+    
+}
+
+.list-group .list-group-item:hover{
+    
+  color:red;
+  background-color:blue;
+    
+}
+
+.list-group a{
+    color: green; 
+    
+}

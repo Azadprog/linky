@@ -11,17 +11,17 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :text %>
-    <%= form.text_field :text, id: :link_text %>
+  <div class="form-group">
+   <h4>Write in the  Display Text </h4>
+    <%= form.text_field :text, placeholder:"Facebook", class:"form-control input-lg" %>
   </div>
 
-  <div class="field">
-    <%= form.label :url %>
-    <%= form.text_field :url, id: :link_url %>
+  <div class="form-group">
+<h4> Write in full URL </h4>
+    <%= form.text_field :url, placeholder:"www.facebook.com" , class:"form-control input-lg" %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="form-group">
+    <%= form.submit 'Create New Link', class: "btn btn-primary btn-lg" %>
   </div>
 <% end %>
